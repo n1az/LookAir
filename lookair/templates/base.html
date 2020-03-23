@@ -7,8 +7,16 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-
+    <!-- #00C853 -->
     <title>Hello, world!</title>
+    <style>
+    	.good { background-color: #00C853 ; }
+    	.moderate { background-color: #FFD600; }
+    	.usg { background-color: #FF6D00; }
+    	.unhealthy { background-color: #d50000; }
+    	.veryunhealthy { background-color: #D500F9; }
+    	.hazardous { background-color: #ba3b3b; }
+    </style>
   </head>
   <body>
   	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -23,8 +31,9 @@
         <a class="nav-link" href="{% url 'about' %}">About</a>
       </li>
     </ul>
-    <form class="form-inline my-2 my-lg-0">
-      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+    <form action="{% url 'home' %}" class="form-inline my-2 my-lg-0" method="POST">
+    	{% csrf_token %}
+      <input class="form-control mr-sm-2" type="search" placeholder="Enter ZipCode" aria-label="Search" name="zipcode">
       <button class="btn btn-outline-secondary my-2 my-sm-0" type="submit">Search</button>
     </form>
   </div>
