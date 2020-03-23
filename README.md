@@ -14,12 +14,12 @@ Home Good Air Quality:
 
 Home Moderate Air Quality:
 
-![alt text](https://github.com/n1az/LookAir/tree/master/lookair/templates/Screenshots/Home_Mod.PNG)
+![alt text](https://github.com/n1az/LookAir/blob/master/lookair/templates/Screenshots/Home_Mod.PNG)
 
 Home Unhealthy for Sensitive Groups Air Quality:
 
-![alt text](https://github.com/n1az/LookAir/tree/master/lookair/templates/Screenshots/Home_usg.PNG)
+![alt text](https://github.com/n1az/LookAir/blob/master/lookair/templates/Screenshots/Home_usg.PNG)
 
 About :
 
-![alt text](https://github.com/n1az/LookAir/tree/master/lookair/templates/Screenshots/About.PNG)
+![alt text](https://github.com/n1az/LookAir/blob/master/lookair/templates/Screenshots/About.PNG)
