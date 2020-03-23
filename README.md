@@ -10,7 +10,7 @@ I used:
 
 Home Good Air Quality:
 
-![alt text](https://github.com/n1az/LookAir/tree/master/lookair/templates/Screenshots/Home_Good.PNG)
+![alt text](https://github.com/n1az/LookAir/blob/master/lookair/templates/Screenshots/Home_Good.PNG)
 
 Home Moderate Air Quality:
 
